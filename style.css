@@ -38,6 +38,8 @@
     font-size: 16px;
     border: none;
     cursor: pointer;
+    border: #9775db 0.115em solid;
+    box-shadow: 5px 3px 6px rgb(190, 183, 183);
     
 
   }
@@ -178,6 +180,7 @@ a {
   right: 0;
   border-bottom: 1px solid #efefef;
   font-weight: bold;
+  z-index: 1000;
 }
 
 header {
@@ -217,12 +220,6 @@ nav{
     border-radius: 3px;
     background-color: #efefef;
     margin-right: 20px;
-}
-
-.boxing {
-    width: 30%;
-    margin-bottom: 40px;
-    background-color:#b08ef4 ;
 }
 
 /*
@@ -268,17 +265,19 @@ nav{
   height: 200px;
   margin: 10px;
   padding: 10px;
-  border: 1px solid black;
   cursor: pointer;
   background-color: #9775db;
   border-radius: 10px;
+  border: #9775db 0.115em solid;
+  box-shadow: 8px 6px 7px rgb(190, 183, 183);
 
-  /*background-color: #89aaa6;*/
+  
 
 }
 
 .boxing:hover {
-  background-color: #f5f5f5;
+  background-color: #e3d8ed;
+  border: none;
 }
 
 .boxing img {
@@ -292,17 +291,20 @@ nav{
 
 .See {
   display: inline-block;
-  background-color: #eee8f4;
   text-align: center;
+  font-weight: bold;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 1.05rem;
   cursor: pointer;
-  color: #8955c0;
-  border-radius: 10px;
+  border-radius: 5px;
   position: absolute;
   transform: translate(-110%, -100%);
-  width: 90px;
-  height: 30px;
+  min-width: 5px;
+  min-height: 5px;
+  padding: 10px 15px;
+  background-color: rgba(92, 35, 154, 0.3);
+  color: #4f308c;
+
 }
 
 .See:hover {
@@ -319,11 +321,11 @@ h2{
 }
 
 
-.MCQ{
+.Math{
 padding-bottom: 100px;
 }
 
-.MCQ p:first-child{
+.Math p:first-child{
   text-align: left;
   padding-left: 10px;
   font-size: x-large;
@@ -333,12 +335,12 @@ padding-bottom: 100px;
 
 
 
-.TorF{
+.Eng{
 padding-bottom: 100px;
 
 }
 
-.TorF p:first-child{
+.Eng p:first-child{
   text-align: left;
   padding-left: 10px;
   font-size: x-large;
@@ -346,12 +348,12 @@ padding-bottom: 100px;
   font-weight: bold;
 }
 
-.Fill{
+.Science{
   padding-bottom: 100px;
 
 }
 
-.Fill p:first-child{
+.Science p:first-child{
   text-align: left;
   padding-left: 10px;
   font-size: x-large;
@@ -388,7 +390,7 @@ body {
     height: 100%;
     z-index: -1;
     opacity: 0.2;
-    background-image: url('pate-1.png');
+    background-image: url('images/background/pate-1.png');
     background-repeat: repeat;
   }
 

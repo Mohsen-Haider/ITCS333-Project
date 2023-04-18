@@ -21,7 +21,7 @@
 
     <div class="header-container">
   <header>
-    <div class="logo"><i class="fa-brands fa-qq"></i><p>QuizLand</p></div>
+    <a href="home.php"><div class="logo"><i class="fa-brands fa-qq"></i><p>QuizLand</p></div></a>
     <nav>
       <form action="" method="post">
         <input class="search" type="text" placeholder="    Search   ">
@@ -56,6 +56,10 @@
         <a href="#" class="dropbtn">About</a>
     </div>
 
+    <div class="dropdown login">
+        <a href="#" class="dropbtn">Sign in</a>
+    </div>
+
 
 </div>
 
@@ -66,9 +70,8 @@
     <title>Login Button </title>
 </head>
 <body>
-    <form method="post" action="welcome.php">
-        <input type="submit" value="Log in">
-    </form>
+    
+        
     
     
 </body>
@@ -93,16 +96,16 @@
              <!-- Define each of the slides
           and write the content -->
              <div class="slide">
-                <img src="new2.jpg" alt="PICTURE">
+                <img src="images/slide-show/new2.jpg" alt="PICTURE">
              </div>
              <div class="slide">
-                <img src="image11.png" alt="PICTURE">
+                <img src="images/slide-show/image11.png" alt="PICTURE">
              </div>
              <div class="slide">
-                <img src="new2.jpg" alt="PICTURE">
+                <img src="images/slide-show/new2.jpg" alt="PICTURE">
              </div>
              <div class="slide">
-                 <img src="image11.png" alt="PICTURE">
+                 <img src="images/slide-show/image11.png" alt="PICTURE">
              </div>
          </div>
      </div>
@@ -116,12 +119,12 @@
  
 
         <div class="container">
-            <div class="MCQ">
+            <div class="Math">
                 <p>Mathematics</p>
 
         <a href="http://example.com">
         <div class="boxing">
-        <img src="images/image1@2x.png" alt="Image">
+        <img src="images/cards/image1@2x.png" alt="Image">
         <h2>Title</h2>
         <p>Description</p>
         </div>
@@ -129,7 +132,7 @@
 
         <a href="http://example.com">
         <div class="boxing">
-        <img src="images/image2@2x.png" alt="Image">
+        <img src="images/cards/image2@2x.png" alt="Image">
         <h2>Title</h2>
         <p>Description</p>
         </div>
@@ -138,7 +141,7 @@
 
         <a href="http://example.com">
         <div class="boxing">
-        <img src="images/image3@2x.png" alt="Image">
+        <img src="images/cards/image3@2x.png" alt="Image">
         <h2>Title</h2>
         <p>Description</p>
         </div>
@@ -146,7 +149,7 @@
 
         <a href="http://example.com">
         <div class="boxing">
-        <img src="images/image4@2x.png" alt="Image">
+        <img src="images/cards/image4@2x.png" alt="Image">
         <h2>Title</h2>
         <p>Description</p>
         </div>
@@ -154,20 +157,22 @@
 
 
 
+        
         <a href="#">
-             <button class="See">See more</button>
+             <div class="See">See more</div>
         </a>
+        
 
         </div>
 
         
 
-        <div class="TorF">
+        <div class="Eng">
         <p>English and Language Arts</p>
 
         <a href="http://example.com">
         <div class="boxing">
-        <img src="images/image5@2x.png" alt="Image">
+        <img src="images/cards/image5@2x.png" alt="Image">
         <h2>Title</h2>
         <p>Description</p>
         </div>
@@ -175,7 +180,7 @@
 
         <a href="http://example.com">
         <div class="boxing">
-        <img src="images/image6@2x.png" alt="Image">
+        <img src="images/cards/image6@2x.png" alt="Image">
         <h2>Title</h2>
         <p>Description</p>
         </div>
@@ -183,7 +188,7 @@
 
         <a href="http://example.com">
         <div class="boxing">
-        <img src="images/image7@2x.png" alt="Image">
+        <img src="images/cards/image7@2x.png" alt="Image">
         <h2>Title</h2>
         <p>Description</p>
         </div>
@@ -191,25 +196,26 @@
 
         <a href="http://example.com">
         <div class="boxing">
-        <img src="images/image8@2x.png" alt="Image">
+        <img src="images/cards/image8@2x.png" alt="Image">
         <h2>Title</h2>
         <p>Description</p>
         </div>
         </a>
 
+             
         <a href="#">
-             <button class="See">See more</button>
+             <div class="See">See more</div>
         </a>
 
         </div>
 
 
 
-        <div class="Fill">
+        <div class="Science">
         <p>Science</p>
         <a href="http://example.com">
         <div class="boxing">
-        <img src="images/image9@2x.png" alt="Image">
+        <img src="images/cards/image9@2x.png" alt="Image">
         <h2>Title</h2>
         <p>Description</p>
         </div>
@@ -217,7 +223,7 @@
 
         <a href="http://example.com">
         <div class="boxing">
-        <img src="images/image10@2x.png" alt="Image">
+        <img src="images/cards/image10@2x.png" alt="Image">
         <h2>Title</h2>
         <p>Description</p>
         </div>
@@ -225,7 +231,7 @@
 
         <a href="http://example.com">
         <div class="boxing">
-        <img src="images/image5@2x.png" alt="Image">
+        <img src="images/cards/image5@2x.png" alt="Image">
         <h2>Title</h2>
         <p>Description</p>
         </div>
@@ -233,14 +239,15 @@
 
         <a href="http://example.com">
         <div class="boxing">
-        <img src="images/image9@2x.png" alt="Image">
+        <img src="images/cards/image9@2x.png" alt="Image">
         <h2>Title</h2>
         <p>Description</p>
         </div>
         </a>
 
+            
         <a href="#">
-             <button class="See">See more</button>
+             <div class="See">See more</div>
         </a>
 
         </div>
@@ -258,34 +265,34 @@
         
         <!--
 
-            <div class="col"><img src="images/image2@2x.png" alt="">
+            <div class="col"><img src="images/cards/image2@2x.png" alt="">
                 <p>Branding: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
-            <div class="col"><img src="images/image2@2x.png" alt="">
+            <div class="col"><img src="images/cards/image2@2x.png" alt="">
                 <p>Branding: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
-            <div class="col"><img src="images/image3@2x.png" alt="">
+            <div class="col"><img src="images/cards/image3@2x.png" alt="">
                 <p>Branding: I'm going to try an impress you with my typing skills.</p>
             </div>
-            <div class="col"><img src="images/image4@2x.png" alt="">
+            <div class="col"><img src="images/cards/image4@2x.png" alt="">
                 <p>Branding: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
-            <div class="col hide-mobile"><img src="images/image5@2x.png" alt="">
+            <div class="col hide-mobile"><img src="images/cards/image5@2x.png" alt="">
                 <p>Branding: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
-            <div class="col hide-mobile"><img src="images/image6@2x.png" alt="">
+            <div class="col hide-mobile"><img src="images/cards/image6@2x.png" alt="">
                 <p>Branding: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
-            <div class="col hide-mobile"><img src="images/image7@2x.png" alt="">
+            <div class="col hide-mobile"><img src="images/cards/image7@2x.png" alt="">
                 <p>Branding: Lorem  ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
-            <div class="col hide-mobile"><img src="images/image8@2x.png" alt="">
+            <div class="col hide-mobile"><img src="images/cards/image8@2x.png" alt="">
                 <p>Branding: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
-            <div class="col hide-mobile"><img src="images/image9@2x.png" alt="">
+            <div class="col hide-mobile"><img src="images/cards/image9@2x.png" alt="">
                 <p>Branding: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
-            <div class="col hide-desktop-only"><img src="images/image10@2x.png" alt="">
+            <div class="col hide-desktop-only"><img src="images/cards/image10@2x.png" alt="">
                 <p>Branding: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
         </div>
