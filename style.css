@@ -30,21 +30,8 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  
-  .dropbtn {
-    color: black;
-    background-color: white;
-    padding: 12px 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    border: #9775db 0.115em solid;
-    box-shadow: 5px 3px 6px rgb(190, 183, 183);
-    
-
-  }
-  
-  .dropbtn:hover, .dropbtn:focus {
+  /* $######################################################################################################3 */
+  .dropbtn:hover {
     background-color: #ddd;
   }
 
@@ -52,27 +39,6 @@
     background-color: #ddd;
     
   }
-
-
-
-  input[type=submit] {
-    background-color:#9775db ;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    
-}
-
-/* Add a hover effect to the button */
-input[type=submit]:hover {
-    background-color:#ddd;
-}
-
-
 
 /* Style the dropdown button */
 .dropbtn {
@@ -83,6 +49,8 @@ input[type=submit]:hover {
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
+  border: #9775db 0.115em solid;
+  box-shadow: 5px 3px 6px rgb(190, 183, 183);
 }
 
 /* Style the dropdown content */

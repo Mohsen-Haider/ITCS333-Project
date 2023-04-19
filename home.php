@@ -14,11 +14,8 @@
         <link href="https://fonts.googleapis.com/css?family=Asap:400,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css-reset.css">
         <link rel="stylesheet" href="style.css">
-        
-
     </head>
     <body>
-
     <div class="header-container">
   <header>
     <a href="home.php"><div class="logo"><i class="fa-brands fa-qq"></i><p>QuizLand</p></div></a>
@@ -26,16 +23,12 @@
       <form action="" method="post">
         <input class="search" type="text" placeholder="    Search   ">
       </form>
-
-
-
-<div class="button-container">
     <div class="dropdown">
-        <a href="#" class="dropbtn">Home</a>
+        <a href="#" class="dropbtn dropdown">Home</a>
     </div>
 
     <div class="dropdown">
-        <a href="#" class="dropbtn">Profile</a>
+        <a href="#" class="dropbtn dropdown">Profile</a>
         <div class="dropdown-content">
             <a href="#">Category 1</a>
             <a href="#">Category 2</a>
@@ -44,7 +37,7 @@
     </div>
 
     <div class="dropdown">
-        <a href="#" class="dropbtn">Categories</a>
+        <a href="#" class="dropbtn dropdown">Categories</a>
         <div class="dropdown-content">
             <a href="#">Category 1</a>
             <a href="#">Category 2</a>
@@ -53,39 +46,16 @@
     </div>
 
     <div class="dropdown">
-        <a href="#" class="dropbtn">About</a>
+        <a href="#" class="dropbtn dropdown">About</a>
     </div>
 
     <div class="dropdown login">
-        <a href="#" class="dropbtn">Sign in</a>
+        <a href="#" class="dropbtn dropdown">Sign in</a>
     </div>
 
-
-</div>
-
-
-
-<html>
-<head>
-    <title>Login Button </title>
-</head>
-<body>
-    
-        
-    
-    
-</body>
-</html>
-      
-
-   
     </nav>
   </header>
 </div>
-
-
-        
-        <body>
 
         <h1>WELCOME TO QUIZLAND</h1>
      <!-- Define the slideshow container -->
@@ -109,14 +79,7 @@
              </div>
          </div>
      </div>
- </body>
 
-
-
-
-    
-
- 
 
         <div class="container">
             <div class="Math">
@@ -254,54 +217,6 @@
 
 
         </div>
-
-
-
-
-
-
-
-
-        
-        <!--
-
-            <div class="col"><img src="images/cards/image2@2x.png" alt="">
-                <p>Branding: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-            <div class="col"><img src="images/cards/image2@2x.png" alt="">
-                <p>Branding: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-            <div class="col"><img src="images/cards/image3@2x.png" alt="">
-                <p>Branding: I'm going to try an impress you with my typing skills.</p>
-            </div>
-            <div class="col"><img src="images/cards/image4@2x.png" alt="">
-                <p>Branding: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-            <div class="col hide-mobile"><img src="images/cards/image5@2x.png" alt="">
-                <p>Branding: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-            <div class="col hide-mobile"><img src="images/cards/image6@2x.png" alt="">
-                <p>Branding: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-            <div class="col hide-mobile"><img src="images/cards/image7@2x.png" alt="">
-                <p>Branding: Lorem  ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-            <div class="col hide-mobile"><img src="images/cards/image8@2x.png" alt="">
-                <p>Branding: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-            <div class="col hide-mobile"><img src="images/cards/image9@2x.png" alt="">
-                <p>Branding: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-            <div class="col hide-desktop-only"><img src="images/cards/image10@2x.png" alt="">
-                <p>Branding: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-        </div>
-
-
-         -->
-
-
-
 
 
         <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
