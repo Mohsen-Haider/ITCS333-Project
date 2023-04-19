@@ -1,126 +1,68 @@
 /* Global View aka Desktop View */
-
-  .dropdown {
-    position: relative;
-    display: inline-block;
-
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    background-color: #f9f9f9;
-    min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    margin-top: 5px;
-  }
-
-  .dropdown-content a {
-    display: block;
-    padding: 10px 0; /* Add space between the choices */
-  }
-
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  /* $######################################################################################################3 */
-  .dropbtn:hover {
-    background-color: #ddd;
-  }
-
-  .dropdown:hover .mybutton {
-    background-color: #ddd;
-    
-  }
-
-/* Style the dropdown button */
+/* Header style code #################       Start    */
 .dropbtn {
   background-color: #9775db;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-  border: #9775db 0.115em solid;
   box-shadow: 5px 3px 6px rgb(190, 183, 183);
-}
-
-/* Style the dropdown content */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    z-index: 1;
-}
-
-/* Style the links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Add a hover effect to the links */
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-}
-
-/* Show the dropdown menu when the user hovers over the button */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Style the "Home" and "About" buttons */
-.mybutton {
-  background-color: #9775db;
   color: white;
-  padding: 12px 20px;
+  padding: 16px;
+  font-size: 16px;
   border: none;
   border-radius: 4px;
-  cursor: pointer;
   font-size: 16px;
+  margin:0 5px;
+  font-weight:bold;
 }
 
-/* Add a hover effect to the "Home" and "About" buttons */
-.mybutton:hover {
-    background-color: #0077B5;
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-/* Style the container for the buttons */
-.button-container {
-    display: inline-block;
-
+.dropdown-content {
+  display: none;
+  position: absolute; 
+  min-width: 160px;
+  margin-left:-30px;
+  border-radius: 6px;
+  z-index: 1;
+  padding-top:25px;
 }
 
-form{
+.dropdown-content a {
+  background-color: #f1f1f1;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:last-child{
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+}
+.dropdown-content a:first-child{
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+}
+.dropdown-content a:hover {background-color: #ddd;
+color:#9775db;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:  #f1f1f1;
+cursor:pointer;}
+/* Header style code #################       end    */
+
+.search-form{
   margin-left: 40px;
 }
-
-
-
- /* --------------------------------------------------------------------------------------------------- */
-
-
 body {
     font-family: 'Roboto', sans-serif, Helvetica;
     color: black;
     background-color: #fff;
     background-color: #f8eded; 
-
-
 }
 
-i{
+.logo i{
     font-size: 3rem;
     color:#684E9C;
 }
@@ -159,28 +101,14 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-.sign{
-    width: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #a2a2a2;
-    font-size: 1rem;
-}
-.sign i{
-    font-size: 33px;
-}
+
 .logo{
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 2.5rem;
 }
-nav{
-    display: flex;
-    align-items: center;
-    color: #f1f1f1;
-}
+
 .search{
     width:300px;
     height: 40px;
@@ -188,19 +116,7 @@ nav{
     border-radius: 3px;
     background-color: #efefef;
     margin-right: 20px;
-}
-
-/*
-.col p {
-    font-size: 0.825rem;
-    padding: 20px 25px;
-    line-height: 1.25rem;
 } 
-*/ 
-
-.hide-desktop-only {
-    display: none;
-}
 
 .boxing img {
     width: 100%;
@@ -210,23 +126,6 @@ nav{
 .boxing p::first-line {
     font-weight: 700;
 }
-
-.mybutton {
-    padding: 10px 25px;
-    margin-left: 20px;
-}
-
-
-.highlight {
-    font-weight: 700;
-}
-
-.mob-wrapper {
-    display: none;
-}
-
- /* --------------------------------------------------------------------------------------------------- */
-
 .boxing {
   display: inline-block;
   width: 200px;
@@ -238,24 +137,18 @@ nav{
   border-radius: 10px;
   border: #9775db 0.115em solid;
   box-shadow: 8px 6px 7px rgb(190, 183, 183);
-
-  
-
 }
 
 .boxing:hover {
   background-color: #e3d8ed;
   border: none;
 }
-
 .boxing img {
   display: block;
   width: 100%;
   height: auto;
   border-radius: 10px;
-
 }
-
 
 .See {
   display: inline-block;
@@ -272,22 +165,19 @@ nav{
   padding: 10px 15px;
   background-color: rgba(92, 35, 154, 0.3);
   color: #4f308c;
-
 }
 
 .See:hover {
   background-color: #e3d8ed;
 }
 
-
-p{
+.boxing p{
 padding-top: 10px;
 }
 
-h2{
+.boxing h2{
   margin-top: 10px;
 }
-
 
 .Math{
 padding-bottom: 100px;
@@ -300,12 +190,8 @@ padding-bottom: 100px;
   padding-bottom: 5px;
   font-weight: bold;
 }
-
-
-
 .Eng{
 padding-bottom: 100px;
-
 }
 
 .Eng p:first-child{
@@ -318,7 +204,6 @@ padding-bottom: 100px;
 
 .Science{
   padding-bottom: 100px;
-
 }
 
 .Science p:first-child{
@@ -329,16 +214,13 @@ padding-bottom: 100px;
   font-weight: bold;
 }
 
-
- /* --------------------------------------------------------------------------------------------------- */
-
-h1{
+.welcome{
     margin: 50px;
     font-weight: bold;
     font-size: 120px;
     color: #9775db;
     text-shadow: 6px 6px 8px rgb(205, 205, 84);
-    margin-top: 150px;
+    margin-top: 110px;
 }  
 
 body {
@@ -346,7 +228,7 @@ body {
     padding: 5%;
     text-align: center;
     font-size: 50;
-  }
+}
 
   body::after {
     content: "";
@@ -362,168 +244,10 @@ body {
     background-repeat: repeat;
   }
 
-
-  
-  /* Styling the area of the slides */
-  
-  #slideshow {
-    overflow: hidden;
-    height: 510px;
-    width: 1024px;
-    margin: 0 auto;
-    margin-top: 100px;
-  }
-  
-  /* Style each of the slides with a fixed width and height */
-  
-  .slide {
-    float: left;
-    height: 510px;
-    width: 728px;
-    width: auto;
-    height: auto;
-  }
-
-  .slideshow picture {
-  min-width: 100%;
-  min-height: 100%;
-}
-  
-  /* Add animation to the slides */
-  
-  .slide-wrapper {
-  
-    /* Calculate the total width on the basis of number of slides */
-    width: calc(100% * 4);
-  
-    /* Specify the animation with the duration and speed */
-    animation: slide 20s ease infinite;
-  }
-  
-  /* Define the animation for the slideshow */
-  
-  @keyframes slide {
-  
-    /* Calculate the margin-left for each of the slides */
-    20% {
-      margin-left: 0px;
-    }
-    40% {
-      margin-left: calc(-100% * 1);
-    }
-    60% {
-      margin-left: calc(-100% * 2);
-    }
-    80% {
-      margin-left: calc(-100% * 3);
-    }
-  }
-
-
-
-  
-
-
-
-
-
- /* --------------------------------------------------------------------------------------------------- */
-
-
 /* Tablet View */
 @media (max-width: 768px){
-    
-.col {
-    width: 45%;
 }
-
-.hide-desktop-only {
-    display: block;
-}
-
-
-.header-container {
-    position: relative;
-}
-
-.container {
-    padding-top: 40px;
-}
-
-nav {
-    display: none;
-}
-
-nav a {
-    display: block;
-   }
-
-.logo {
-    padding: 40px 0; 
-}
-
-.mybutton {
-    margin-left: 0;
-}
-
-.mob-wrapper {
-    display: block;
-    padding-right: 30px;
-}
-
-.mob-nav {
-    display: none;
-    position: absolute;
-    padding-top: 10px;
-}
-
-.navbutton {
-    display: block;
-    background-color: coral;
-    padding: 15px 30px;
-    margin-left: -70px;
-    text-align: center;
-}
-
-#slideshow {
-    height: 360px;
-  }
-  .slide {
-    height: 360px;
-  }
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
 /* Mobile View */
 @media (max-width: 400px){
     
-    .col {
-        width: 100%;
-    }
-    
-
-    .hide-mobile {
-        display: none;
-    }
-
-    #slideshow {
-        height: 240px;
-      }
-      .slide {
-        height: 240px;
-      }
-
-
 }
-

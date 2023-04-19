@@ -16,70 +16,11 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-    <div class="header-container">
-  <header>
-    <a href="home.php"><div class="logo"><i class="fa-brands fa-qq"></i><p>QuizLand</p></div></a>
-    <nav>
-      <form action="" method="post">
-        <input class="search" type="text" placeholder="    Search   ">
-      </form>
-    <div class="dropdown">
-        <a href="#" class="dropbtn dropdown">Home</a>
-    </div>
+  <?php
+  require("header.php");
+   ?>
 
-    <div class="dropdown">
-        <a href="#" class="dropbtn dropdown">Profile</a>
-        <div class="dropdown-content">
-            <a href="#">Category 1</a>
-            <a href="#">Category 2</a>
-            <a href="#">Category 3</a>
-        </div>
-    </div>
-
-    <div class="dropdown">
-        <a href="#" class="dropbtn dropdown">Categories</a>
-        <div class="dropdown-content">
-            <a href="#">Category 1</a>
-            <a href="#">Category 2</a>
-            <a href="#">Category 3</a>
-        </div>
-    </div>
-
-    <div class="dropdown">
-        <a href="#" class="dropbtn dropdown">About</a>
-    </div>
-
-    <div class="dropdown login">
-        <a href="#" class="dropbtn dropdown">Sign in</a>
-    </div>
-
-    </nav>
-  </header>
-</div>
-
-        <h1>WELCOME TO QUIZLAND</h1>
-     <!-- Define the slideshow container -->
-     <div id="slideshow">
-
-         <div class="slide-wrapper">
-              
-             <!-- Define each of the slides
-          and write the content -->
-             <div class="slide">
-                <img src="images/slide-show/new2.jpg" alt="PICTURE">
-             </div>
-             <div class="slide">
-                <img src="images/slide-show/image11.png" alt="PICTURE">
-             </div>
-             <div class="slide">
-                <img src="images/slide-show/new2.jpg" alt="PICTURE">
-             </div>
-             <div class="slide">
-                 <img src="images/slide-show/image11.png" alt="PICTURE">
-             </div>
-         </div>
-     </div>
-
+        <h1 class="welcome">WELCOME TO QUIZLAND</h1>
 
         <div class="container">
             <div class="Math">
@@ -117,18 +58,12 @@
         <p>Description</p>
         </div>
         </a>
-
-
-
         
         <a href="#">
              <div class="See">See more</div>
         </a>
         
-
-        </div>
-
-        
+        </div>   
 
         <div class="Eng">
         <p>English and Language Arts</p>
@@ -171,8 +106,6 @@
         </a>
 
         </div>
-
-
 
         <div class="Science">
         <p>Science</p>
