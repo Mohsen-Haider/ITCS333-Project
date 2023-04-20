@@ -1,5 +1,56 @@
-/* Global View aka Desktop View */
-/* Header style code #################       Start    */
+/* Global View Desktop View */
+
+/* Header style code #################                Start    */
+
+/* Part 1 header   start */
+.header-container {
+  background-color: #fff;
+  min-height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #efefef;
+  font-weight: bold;
+  z-index: 1000;
+}
+header {
+    max-width: 1144px;
+    min-height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.search{
+    width:300px;
+    height: 40px;
+    border: 1px solid #f1f1f1;
+    border-radius: 3px;
+    background-color: #efefef;
+    margin-right: 20px;
+} 
+
+.logo i{
+  font-size: 3rem;
+  color:#684E9C;
+}
+.search-form{
+  margin-left: 40px;
+}
+/* Part 1 header   end */
+
+/* Part 2 Header dropdown style         start */
+
+
 .dropbtn {
   background-color: #9775db;
   box-shadow: 5px 3px 6px rgb(190, 183, 183);
@@ -50,116 +101,88 @@ color:#9775db;}
 
 .dropdown:hover .dropbtn {background-color:  #f1f1f1;
 cursor:pointer;}
-/* Header style code #################       end    */
 
-.search-form{
-  margin-left: 40px;
+/* Part 2 Header dropdown style             end */
+
+
+/* Header style code #################                      end    */
+
+
+/* body style code #################       Start    */
+
+body {
+  font-family: 'Roboto', sans-serif, Helvetica;
+  color: black;
+  background-color: #fff;
+  background-color: #f8eded; 
 }
 body {
-    font-family: 'Roboto', sans-serif, Helvetica;
-    color: black;
-    background-color: #fff;
-    background-color: #f8eded; 
+font-family: Helvetica, sans-serif;
+padding: 5%;
+text-align: center;
+font-size: 50;
+}
+body::after {
+content: "";
+/* display: block; */
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: -1;
+opacity: 0.2; /* Same as transparency */
+background-image: url('images/background/pate-1.png');
+background-repeat: repeat; /* This line is to make sure the background will repeat in all browsers  */
 }
 
-.logo i{
-    font-size: 3rem;
-    color:#684E9C;
+/* body style code #################       end    */
+
+
+/* The main Container style code #################       start    */
+
+.container {
+  min-height: 500px;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 40px;
 }
+ 
+/* The main Container style code #################       end    */
+
+.welcome{
+  margin: 10px;
+  font-weight: bold;
+  font-size: 10vw; /* The font size will be 10% of the width of the viewport so it will resize auotmatically */  
+ /* We can also use vh to make it automatically resize based on the height of the viewport*/
+  color: #9775db;
+  text-shadow: 6px 6px 8px rgb(205, 205, 84);
+  margin-top: 110px;
+}  
+
 a {
     color: black;
     text-decoration: none;
 }
 
-.container {
-    min-height: 500px;
-    max-width: 1024px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-top: 140px;
-  }
 
-.header-container {
-  background-color: #fff;
-  min-height: 80px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  border-bottom: 1px solid #efefef;
-  font-weight: bold;
-  z-index: 1000;
+/* boxing (the quizzes) code  ########################## Start  */
+
+.subject-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-header {
-    max-width: 1144px;
-    min-height: 80px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 2.5rem;
-}
-
-.search{
-    width:300px;
-    height: 40px;
-    border: 1px solid #f1f1f1;
-    border-radius: 3px;
-    background-color: #efefef;
-    margin-right: 20px;
-} 
-
-.boxing img {
-    width: 100%;
-    height: auto;
-} 
-
-.boxing p::first-line {
-    font-weight: 700;
-}
-.boxing {
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-  margin: 10px;
-  padding: 10px;
-  cursor: pointer;
-  background-color: #9775db;
-  border-radius: 10px;
-  border: #9775db 0.115em solid;
-  box-shadow: 8px 6px 7px rgb(190, 183, 183);
-}
-
-.boxing:hover {
-  background-color: #e3d8ed;
-  border: none;
-}
-.boxing img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.See {
-  display: inline-block;
+ /*  View more button style start */
+.view {
   text-align: center;
   font-weight: bold;
-  text-decoration: none;
   font-size: 1.05rem;
   cursor: pointer;
   border-radius: 5px;
-  position: absolute;
-  transform: translate(-110%, -100%);
   min-width: 5px;
   min-height: 5px;
   padding: 10px 15px;
@@ -167,82 +190,47 @@ header {
   color: #4f308c;
 }
 
-.See:hover {
+.view:hover {
   background-color: #e3d8ed;
 }
+/*  View more button style end */
 
+.subject{
+  padding-bottom: 50px;
+  }  
+.subject p:first-child{
+  padding-left: 10px;
+  font-size: x-large;
+  font-weight: bold;
+}
+.boxing img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+} 
+.boxing {
+display: inline-block;
+width: 19.5%;
+margin: 10px;
+padding: 10px;
+background-color: #9775db;
+border-radius: 10px;
+box-shadow: 8px 6px 7px rgb(190, 183, 183);
+}
+.boxing:hover {
+background-color: #e3d8ed;
+border: none;
+}
 .boxing p{
 padding-top: 10px;
+font-weight: 700;
 }
-
 .boxing h2{
-  margin-top: 10px;
+margin-top: 10px;
 }
 
-.Math{
-padding-bottom: 100px;
-}
+/* boxing (the quizzes) code  #####################################  End  */
 
-.Math p:first-child{
-  text-align: left;
-  padding-left: 10px;
-  font-size: x-large;
-  padding-bottom: 5px;
-  font-weight: bold;
-}
-.Eng{
-padding-bottom: 100px;
-}
-
-.Eng p:first-child{
-  text-align: left;
-  padding-left: 10px;
-  font-size: x-large;
-  padding-bottom: 5px;
-  font-weight: bold;
-}
-
-.Science{
-  padding-bottom: 100px;
-}
-
-.Science p:first-child{
-  text-align: left;
-  padding-left: 10px;
-  font-size: x-large;
-  padding-bottom: 5px;
-  font-weight: bold;
-}
-
-.welcome{
-    margin: 50px;
-    font-weight: bold;
-    font-size: 120px;
-    color: #9775db;
-    text-shadow: 6px 6px 8px rgb(205, 205, 84);
-    margin-top: 110px;
-}  
-
-body {
-    font-family: Helvetica, sans-serif;
-    padding: 5%;
-    text-align: center;
-    font-size: 50;
-}
-
-  body::after {
-    content: "";
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.2;
-    background-image: url('images/background/pate-1.png');
-    background-repeat: repeat;
-  }
 
 /* Tablet View */
 @media (max-width: 768px){
@@ -251,3 +239,4 @@ body {
 @media (max-width: 400px){
     
 }
+

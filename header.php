@@ -1,6 +1,4 @@
-<style>
 
-</style>
 <div class="header-container">
   <header>
     <a href="home.php"><div class="logo"><i class="fa-brands fa-qq"></i><p>QuizLand</p></div></a>
@@ -10,11 +8,19 @@
       <nav>     
       <div class="dropdown">
         <a href="home.php">
-  <button class="dropbtn">Home</button>
+  <div class="dropbtn">Home</div>
   </a>
 </div>
 <div class="dropdown">
-  <button class="dropbtn">Profile</button>
+  <div class="dropbtn">Profile</div>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<div class="dropdown">
+  <div class="dropbtn">Categories</div>
   <div class="dropdown-content">
     <a href="#">Link 1</a>
     <a href="#">Link 2</a>
@@ -23,24 +29,16 @@
 </div>
 
 <div class="dropdown">
-  <button class="dropbtn">Categories</button>
-  <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-</div>
-
-<div class="dropdown">
-  <button class="dropbtn">About</button>
+  <div class="dropbtn">About</div>
 </div>
 
 </nav>
 <div class="dropdown">
   <a href="#">
-  <button class="dropbtn">Signin</button>
+  <div class="dropbtn">Signin</div>
   </a>
 </div>
+<i class="fa-solid fa-user"></i>
   </header>
 </div>
 

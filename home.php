@@ -23,8 +23,16 @@
         <h1 class="welcome">WELCOME TO QUIZLAND</h1>
 
         <div class="container">
-            <div class="Math">
+            <div class="subject">
+
+                <div class="subject-header">
                 <p>Mathematics</p>
+                <a href="#">
+                <div class="view">View more</div>
+        </a>
+                </div>
+                
+                <div class="body-header">
 
         <a href="http://example.com">
         <div class="boxing">
@@ -59,14 +67,18 @@
         </div>
         </a>
         
-        <a href="#">
-             <div class="See">See more</div>
-        </a>
-        
         </div>   
+</div>
+        <div class="subject">
+        <div class="subject-header">
+        <p>Languages</p>
+        <a href="#">
+        <div class="view">View more</div>
+        </a>
 
-        <div class="Eng">
-        <p>English and Language Arts</p>
+        </div>
+
+        <div class="subject-body">
 
         <a href="http://example.com">
         <div class="boxing">
@@ -99,16 +111,22 @@
         <p>Description</p>
         </div>
         </a>
-
              
-        <a href="#">
-             <div class="See">See more</div>
-        </a>
+        </div>
 
         </div>
 
-        <div class="Science">
+        <div class="subject">
+        <div class="subject-header">
+
         <p>Science</p>
+
+        <a href="#">
+             <div class="view">View more</div>
+        </a>
+
+        </div>
+        <div class="subject-body">
         <a href="http://example.com">
         <div class="boxing">
         <img src="images/cards/image9@2x.png" alt="Image">
@@ -142,12 +160,8 @@
         </a>
 
             
-        <a href="#">
-             <div class="See">See more</div>
-        </a>
-
         </div>
-
+        </div>
 
         </div>
 
