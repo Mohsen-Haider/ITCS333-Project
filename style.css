@@ -3,6 +3,10 @@
 /* Header style code #################                Start    */
 
 /* Part 1 header   start */
+
+
+/*  temperory comment start */
+
 .header-container {
   background-color: #fff;
   min-height: 80px;
@@ -28,24 +32,61 @@ header {
     justify-content: space-between;
     align-items: center;
     font-size: 2.5rem;
+    margin-left: 16px;
 }
-
-.search{
-    width:300px;
-    height: 40px;
-    border: 1px solid #f1f1f1;
-    border-radius: 3px;
-    background-color: #efefef;
-    margin-right: 20px;
-} 
-
 .logo i{
   font-size: 3rem;
   color:#684E9C;
 }
-.search-form{
-  margin-left: 40px;
+/* ######################################          Search  bar   start   */
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
 }
+
+.searchTerm {/* target inside the search bar  */
+  width: 100%;
+  border: 3px solid #9775db;
+  border-right: none;
+  padding: 5px;
+  height: 20.5px;
+  border-radius: 5px 0 0 5px;
+}
+
+.searchTerm:focus{  /* focus target inside the search bar  */
+  color: #9775db;
+}
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #9775db;
+  background: #9775db;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+}
+
+/* ###############################################################  Search bar end */
+
+/* ################################################################ Sign in button  start */
+.sig{
+  display: flex;
+  color: #9775db;
+  padding:8px;
+  font-size: 0.9rem;
+  margin:0 5px;
+  font-weight:bold;
+  }
+/* ################################################################ Sign in button  end */
+
 /* Part 1 header   end */
 
 /* Part 2 Header dropdown style         start */
@@ -55,11 +96,10 @@ header {
   background-color: #9775db;
   box-shadow: 5px 3px 6px rgb(190, 183, 183);
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  padding: 9px 16px;
+  font-size: 1rem;
   border: none;
   border-radius: 4px;
-  font-size: 16px;
   margin:0 5px;
   font-weight:bold;
 }
@@ -101,11 +141,91 @@ color:#9775db;}
 
 .dropdown:hover .dropbtn {background-color:  #f1f1f1;
 cursor:pointer;}
+.mob-wrapper{
+  display:none;
+}
 
 /* Part 2 Header dropdown style             end */
 
+/* Part 3 Header media quiry */
+/* Tablet View */
+@media (max-width: 1140px){
+    nav{
+      display: none;
+    }
+    .mob-wrapper{
+      display:block;
+    }
+/* ##############  copyed button code start */
 
+.mob-dropbtn {
+  background-color: #9775db;
+  box-shadow: 5px 3px 6px rgb(190, 183, 183);
+  color: white;
+  padding: 9px 16px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  margin:0 5px;
+  font-weight:bold;
+}
+
+.mob-dropdown {
+  position: relative;
+  margin-bottom: 2px;
+}
+
+.mob-dropdown-content {
+  display: none;
+  position: absolute; 
+  min-width: 160px;
+  margin-left:-30px;
+  border-radius: 6px;
+  z-index: 1;
+  padding-top:25px;
+}
+
+.mob-dropdown-content a {
+  background-color: #f1f1f1;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.mob-dropdown-content a:last-child{
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+}
+.mob-dropdown-content a:first-child{
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+}
+.mob-dropdown-content a:hover {background-color: #ddd;
+color:#9775db;}
+
+.mob-dropdown:hover .dropdown-content {display: block;}
+
+.mob-dropdown:hover .dropbtn {background-color:  #f1f1f1;
+cursor:pointer;}
+/* ######################### cpoyed button code end */
+
+
+
+
+
+
+}
 /* Header style code #################                      end    */
+
+
+
+
+
+/*  temperory comment end */
+
+
+
+
 
 
 /* body style code #################       Start    */
@@ -168,13 +288,14 @@ a {
     text-decoration: none;
 }
 
-
 /* boxing (the quizzes) code  ########################## Start  */
 
 .subject-header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
 }
  /*  View more button style start */
 .view {
