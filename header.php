@@ -80,7 +80,7 @@
  </div>
 
 
-  <a class=" sig" href="#">
+  <a class="sig" href="#">
   <i class="fa-solid fa-user"></i>
   <div>Signin</div>
   </a>
