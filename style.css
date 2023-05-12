@@ -355,6 +355,11 @@ margin-top: 10px;
 
 /* Tablet View */
 @media (max-width: 768px){
+
+  .body-header :nth-child(2) {
+    display: none;
+  }
+  
 }
 /* Mobile View */
 @media (max-width: 400px){
