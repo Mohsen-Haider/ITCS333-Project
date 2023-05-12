@@ -26,15 +26,15 @@
             <div class="subject">
 
                 <div class="subject-header">
-                <p>Mathematics</p>
+                <p>Entertainment</p>
                 <a href="#">
                 <div class="view">View more</div>
         </a>
                 </div>
                 
-                <div class="body-header">
+        <div class="subject-body">
 
-        <a href="http://example.com">
+        <a class="aBox" href="http://example.com">
         <div class="boxing">
         <img src="images/cards/image1@2x.png" alt="Image">
         <h2>Title</h2>
@@ -42,7 +42,7 @@
         </div>
         </a>
 
-        <a href="http://example.com">
+        <a class="aBox" href="http://example.com">
         <div class="boxing">
         <img src="images/cards/image2@2x.png" alt="Image">
         <h2>Title</h2>
@@ -51,7 +51,7 @@
         </a>
 
 
-        <a href="http://example.com">
+        <a class="aBox" href="http://example.com">
         <div class="boxing">
         <img src="images/cards/image3@2x.png" alt="Image">
         <h2>Title</h2>
@@ -59,7 +59,7 @@
         </div>
         </a>
 
-        <a href="http://example.com">
+        <a class="aBox" href="http://example.com">
         <div class="boxing">
         <img src="images/cards/image4@2x.png" alt="Image">
         <h2>Title</h2>
@@ -67,11 +67,15 @@
         </div>
         </a>
         
-        </div>   
+        </div> 
+        
+        
 </div>
+
+
         <div class="subject">
         <div class="subject-header">
-        <p>Languages</p>
+        <p>History</p>
         <a href="#">
         <div class="view">View more</div>
         </a>
@@ -80,7 +84,7 @@
 
         <div class="subject-body">
 
-        <a href="http://example.com">
+        <a class="aBox" href="http://example.com">
         <div class="boxing">
         <img src="images/cards/image5@2x.png" alt="Image">
         <h2>Title</h2>
@@ -88,7 +92,7 @@
         </div>
         </a>
 
-        <a href="http://example.com">
+        <a class="aBox" href="http://example.com">
         <div class="boxing">
         <img src="images/cards/image6@2x.png" alt="Image">
         <h2>Title</h2>
@@ -96,7 +100,7 @@
         </div>
         </a>
 
-        <a href="http://example.com">
+        <a class="aBox" href="http://example.com">
         <div class="boxing">
         <img src="images/cards/image7@2x.png" alt="Image">
         <h2>Title</h2>
@@ -104,7 +108,7 @@
         </div>
         </a>
 
-        <a href="http://example.com">
+        <a class="aBox" href="http://example.com">
         <div class="boxing">
         <img src="images/cards/image8@2x.png" alt="Image">
         <h2>Title</h2>
@@ -127,7 +131,7 @@
 
         </div>
         <div class="subject-body">
-        <a href="http://example.com">
+        <a class="aBox" href="http://example.com">
         <div class="boxing">
         <img src="images/cards/image9@2x.png" alt="Image">
         <h2>Title</h2>
@@ -135,7 +139,7 @@
         </div>
         </a>
 
-        <a href="http://example.com">
+        <a class="aBox" href="http://example.com">
         <div class="boxing">
         <img src="images/cards/image10@2x.png" alt="Image">
         <h2>Title</h2>
@@ -143,7 +147,7 @@
         </div>
         </a>
 
-        <a href="http://example.com">
+        <a class="aBox" href="http://example.com">
         <div class="boxing">
         <img src="images/cards/image5@2x.png" alt="Image">
         <h2>Title</h2>
@@ -151,7 +155,7 @@
         </div>
         </a>
 
-        <a href="http://example.com">
+        <a class="aBox" href="http://example.com">
         <div class="boxing">
         <img src="images/cards/image9@2x.png" alt="Image">
         <h2>Title</h2>
@@ -162,6 +166,153 @@
             
         </div>
         </div>
+
+
+        <div class="subject">
+        <div class="subject-header">
+        <p>Geography</p>
+        <a href="#">
+        <div class="view">View more</div>
+        </a>
+
+        </div>
+
+        <div class="subject-body">
+
+        <a class="aBox" href="http://example.com">
+        <div class="boxing">
+        <img src="images/cards/image5@2x.png" alt="Image">
+        <h2>Title</h2>
+        <p>Description</p>
+        </div>
+        </a>
+
+        <a class="aBox" href="http://example.com">
+        <div class="boxing">
+        <img src="images/cards/image6@2x.png" alt="Image">
+        <h2>Title</h2>
+        <p>Description</p>
+        </div>
+        </a>
+
+        <a class="aBox" href="http://example.com">
+        <div class="boxing">
+        <img src="images/cards/image7@2x.png" alt="Image">
+        <h2>Title</h2>
+        <p>Description</p>
+        </div>
+        </a>
+
+        <a class="aBox" href="http://example.com">
+        <div class="boxing">
+        <img src="images/cards/image8@2x.png" alt="Image">
+        <h2>Title</h2>
+        <p>Description</p>
+        </div>
+        </a>
+             
+        </div>
+
+        </div>
+
+        <div class="subject">
+        <div class="subject-header">
+        <p>Sports</p>
+        <a href="#">
+        <div class="view">View more</div>
+        </a>
+
+        </div>
+
+        <div class="subject-body">
+
+        <a class="aBox" href="http://example.com">
+        <div class="boxing">
+        <img src="images/cards/image5@2x.png" alt="Image">
+        <h2>Title</h2>
+        <p>Description</p>
+        </div>
+        </a>
+
+        <a class="aBox" href="http://example.com">
+        <div class="boxing">
+        <img src="images/cards/image6@2x.png" alt="Image">
+        <h2>Title</h2>
+        <p>Description</p>
+        </div>
+        </a>
+
+        <a class="aBox" href="http://example.com">
+        <div class="boxing">
+        <img src="images/cards/image7@2x.png" alt="Image">
+        <h2>Title</h2>
+        <p>Description</p>
+        </div>
+        </a>
+
+        <a class="aBox" href="http://example.com">
+        <div class="boxing">
+        <img src="images/cards/image8@2x.png" alt="Image">
+        <h2>Title</h2>
+        <p>Description</p>
+        </div>
+        </a>
+             
+        </div>
+
+        </div>
+
+        <div class="subject">
+        <div class="subject-header">
+        <p>Language</p>
+        <a href="#">
+        <div class="view">View more</div>
+        </a>
+
+        </div>
+
+        <div class="subject-body">
+
+        <a class="aBox" href="http://example.com">
+        <div class="boxing">
+        <img src="images/cards/image5@2x.png" alt="Image">
+        <h2>Title</h2>
+        <p>Description</p>
+        </div>
+        </a>
+
+        <a class="aBox" href="http://example.com">
+        <div class="boxing">
+        <img src="images/cards/image6@2x.png" alt="Image">
+        <h2>Title</h2>
+        <p>Description</p>
+        </div>
+        </a>
+
+        <a class="aBox" href="http://example.com">
+        <div class="boxing">
+        <img src="images/cards/image7@2x.png" alt="Image">
+        <h2>Title</h2>
+        <p>Description</p>
+        </div>
+        </a>
+
+        <a class="aBox" href="http://example.com">
+        <div class="boxing">
+        <img src="images/cards/image8@2x.png" alt="Image">
+        <h2>Title</h2>
+        <p>Description</p>
+        </div>
+        </a>
+             
+        </div>
+
+        </div>
+
+
+
+
+
 
         </div>
 

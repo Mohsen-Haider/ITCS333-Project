@@ -156,6 +156,7 @@ cursor:pointer;}
     .mob-wrapper{
       display:block;
     }
+    
 /* ##############  copyed button code start */
 
 .mob-dropbtn {
@@ -352,17 +353,13 @@ margin-top: 10px;
 
 /* boxing (the quizzes) code  #####################################  End  */
 
-
 /* Tablet View */
 @media (max-width: 768px){
-
-  .body-header :nth-child(2) {
-    display: none;
-  }
-  
 }
 /* Mobile View */
-@media (max-width: 400px){
-    
+@media (max-width: 450px){
+  .boxing {
+    width: 45.5%;
+    }
 }
 
