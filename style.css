@@ -354,20 +354,7 @@ margin-top: 10px;
 /* boxing (the quizzes) code  #####################################  End  */
 
 /* Tablet View */
-@media (max-width: 890px){
-  .boxing {
-    width: 25.5%;
-    }
-    .aBox:last-child{
-      display: none;
-    }
-
-}
-/* Mobile View */
-@media (max-width: 700px){
-  .aBox:nth-child(3){
-    display: none;
-  }
+@media (max-width: 768px){
 }
 /* Mobile View */
 @media (max-width: 450px){
