@@ -15,7 +15,7 @@
         <link href="https://fonts.googleapis.com/css?family=Asap:400,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css-reset.css">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="signup.css">
+        <link rel="stylesheet" href="sign.css">
 
         
 </head>
@@ -34,10 +34,10 @@
 
     <!-- signup Form -->
     <form>
-      <h2 class="email">Email</h2> <input type="text" id="login"  name="signup" placeholder="Enter your email">
-      <h2 class="email">Username</h2> <input type="text" id="password"  name="signup" placeholder="Enter Username">
-      <h2 class="email">Create a Password</h2><input type="text" id="login"  name="signup" placeholder="Create a password">
-      <h2 class="email">Re-enter the Password</h2> <input type="text" id="password"  name="signup" placeholder="Re-enter your password">
+      <h2 class="log">Email</h2> <input type="text" id="login"  name="signup" placeholder="Enter your email">
+      <h2 class="log">Username</h2> <input type="text" id="password"  name="signup" placeholder="Enter Username">
+      <h2 class="log">Create a Password</h2><input type="text" id="login"  name="signup" placeholder="Create a password">
+      <h2 class="log">Re-enter the Password</h2> <input type="text" id="password"  name="signup" placeholder="Re-enter your password">
     <input type="submit" value="Sign up">
     </form>
 
