@@ -13,7 +13,6 @@
      </button>
    </div>
 </div>
-
       <nav>     
       <div class="dropdown">
         <a href="home.php">
@@ -31,9 +30,12 @@
 <div class="dropdown hdr-hidden">
   <div class="dropbtn">Categories</div>
   <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+    <a href="#">Entertainment</a>
+    <a href="#">History</a>
+    <a href="#">Science</a>
+    <a href="#">Geography</a>
+    <a href="#">Sports</a>
+    <a href="#">Language</a>
   </div>
 </div>
 

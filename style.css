@@ -156,6 +156,7 @@ cursor:pointer;}
     .mob-wrapper{
       display:block;
     }
+    
 /* ##############  copyed button code start */
 
 .mob-dropbtn {
@@ -352,12 +353,26 @@ margin-top: 10px;
 
 /* boxing (the quizzes) code  #####################################  End  */
 
-
 /* Tablet View */
-@media (max-width: 768px){
+@media (max-width: 890px){
+  .boxing {
+    width: 25.5%;
+    }
+    .aBox:last-child{
+      display: none;
+    }
+
 }
 /* Mobile View */
-@media (max-width: 400px){
-    
+@media (max-width: 700px){
+  .aBox:nth-child(3){
+    display: none;
+  }
+}
+/* Mobile View */
+@media (max-width: 450px){
+  .boxing {
+    width: 45.5%;
+    }
 }
 
