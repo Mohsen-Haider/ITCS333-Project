@@ -11,7 +11,7 @@ Geography: Quizzes in this category could cover countries, cities, landmarks, an
 Sports: This category could include quizzes about individual sports, teams, and famous athletes.
 Pop Culture: Quizzes in this category could cover a range of topics related to current trends and popular culture.
 Literature: Quizzes in this category could cover classic and contemporary books, authors, and literary genres.
-Food and Drink: This category could include quizzes about cooking, cuisine, cocktails, and wine.
+Food and Drink: This category could include quizzes about cooking, cuisine, and other.
 Language: Quizzes in this category could cover grammar, vocabulary, and other aspects of language learning.
 Personality: This category could include quizzes that help users learn more about their own personality traits and characteristics.
 Of course, there are many other possible categories for quizzes, depending on the specific focus of the website and the interests of its users.
